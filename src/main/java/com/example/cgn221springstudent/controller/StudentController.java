@@ -19,7 +19,6 @@ public class StudentController {
     }
 
 
-
     @GetMapping
     public List<Student> getAllStudents() {
         return List.of(new Student("Berta", "7112"), new Student("Paul", "4711"));
